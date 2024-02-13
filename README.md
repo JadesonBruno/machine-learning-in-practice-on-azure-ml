@@ -1,16 +1,8 @@
 # Machine Learning in practice on Azule ML
 
-Este repositório tem o propósito de armazenar o projeto desenvolvido no âmbito do módulo "Introdução ao Machine Learning" do Bootcamp "Microsoft Azure AI Fundamentals" da [DIO](https://www.dio.me/), sob a instrução da professora  [Valéria Baptista](https://www.linkedin.com/in/valeriabaptista/).
-
-O projeto é requisito indispensável para a aprovação no módulo "Introdução ao Machine Learning", consolidando o aprendizado prático dos participantes e preparando-os para os desafios subsequentes.
-
-O desenvolvimento deste projeto pretende demonstrar como é criar um modelo de Machine Learning no Microsoft Azure ML na prática. Para um melhor entendimentom, dividi em passos todo o processo, desde a criação do grupo de recursos ao resultado final da regressão.
-
-# Machine Learning in practice on Azule ML
-
 This repository has the purpose of storing the project developed within the scope of the "Introduction to Machine Learning" module of the "Microsoft Azure AI Fundamentals" Bootcamp by [DIO](https://www.dio.me/), under the instruction of the teacher [Valéria Baptista](https://www.linkedin.com/in/valeriabaptista/).
 
-The project is an essential requirement for passing the "Introduction to Machine Learning" module, consolidating participants' practical learning and preparing them for subsequent challenges.
+The project is an essential requirement for passing the "Introduction to Machine Learning" module, consolidating participants practical learning and preparing them for subsequent challenges.
 
 The development of this project aims to demonstrate what it is like to create a Machine Learning model in Microsoft Azure ML in practice. For a better understanding, i divided the entire process into steps, from creating the resource group to the final regression result.
 
@@ -24,13 +16,15 @@ First, let's create an Azure Machine Learning workspace. To do this, create a Re
 
 ## Step 2: Configurating a Azure Machine Learning Workspace 
 
-In the basics tab, we will add our workspace information. Since we are in a learning lab, we will not configure other tabs. Para criar clicamos em "Review + Create" e depois "Create".
+In the basics tab, we will add our workspace information. Since we are in a learning lab, we will not configure other tabs. 
+
+To create we click on "Review + Create" and then "Create".
 
 <p align="center">
   <img src="./assets/configurating_basics_workspace.png" alt="Configurating Workspace">
 </p>
 
-After finishing the creation of the Workspace, we go to the Resource.
+After finishing the creation of the Workspace, we click "Go to the Resource".
 
 <p align="center">
   <img src="./assets/go_to_resource.png" alt="Go to Resource">
@@ -114,18 +108,20 @@ In "Limits" we will fill in the information as shown in the image.
 
 <p align="center">
   <img src="./assets/limits.png" alt="Limits">
+</p>
 
 When moving forward, in "Compute", i kept the values shown in the image below.
 
 <p align="center">
   <img src="./assets/compute.png" alt="Compute">
-
+</p>
 Then, we review the job and click next to train the Machine Learning model.
 
-Em seguida precisamos criar o modelo.
+Next, we need to create the model.
 
 <p align="center">
   <img src="./assets/creating_model.gif" alt="Creating Model">
+</p>
 
 ## Step 5: Model Metrics
 
@@ -133,6 +129,46 @@ To access the metrics of the trained model, on the model page, click the link in
 
 <p align="center">
   <img src="./assets/acessing_metrics.gif" alt="Acessing Metrics">
+</p>
 
 ## Step 6: Model Test
 
+Now we will configure the endpoints so that we can deploy our model.
+
+<p align="center">
+  <img src="./assets/configurating_endpoints.gif" alt="Configurating Endpoints">
+</p>
+
+After the deployment process is complete, we will test the model.
+
+For testing, i used the file:
+
+[test.json](test.json)
+
+<p align="center">
+  <img src="./assets/model_test.gif" alt="Model Test">
+</p>
+
+The forecast generated for our model was 361.80 bicycle rentals.
+
+## Useful Links:
+
+[Explore Azure AI Services](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/02-content-safety.html)
+
+[Explore Automated Machine Learning in Azure Machine Learning](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/01-machine-learning.html)
+
+[Data Source](https://raw.githubusercontent.com/MicrosoftLearning/mslearn-ai-fundamentals/main/data/ml/daily-bike-share.csv)
+
+## Tecnologias Utilizadas
+
+- Microsoft Azure Machine Learning
+
+## Contributions
+
+Contributions are welcome. Feel free to suggest improvements and possible corrections to the code.
+
+## Author
+
+Jadeson Bruno Albuquerque da Silva
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jadeson-silva/)
