@@ -1,5 +1,7 @@
 # Machine Learning in practice on Azule ML
 
+[![License](https://img.shields.io/npm/l/react)](https://github.com/JadesonBruno/machine-learning-in-practice-on-azure-ml/blob/main/LICENSE)
+
 This repository has the purpose of storing the project developed within the scope of the "Introduction to Machine Learning" module of the "Microsoft Azure AI Fundamentals" Bootcamp by [DIO](https://www.dio.me/), under the instruction of the teacher [Valéria Baptista](https://www.linkedin.com/in/valeriabaptista/).
 
 The project is an essential requirement for passing the "Introduction to Machine Learning" module, consolidating participants practical learning and preparing them for subsequent challenges.
